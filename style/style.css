@@ -1,0 +1,104 @@
+
+
+/* 
+Font Style: font-family: 'Roboto Mono', monospace;
+
+*/
+
+/* Globel Style */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body{
+    font-family: 'Roboto Mono', monospace;;
+    margin: 0;
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 15px 0;
+    font-weight: 300;
+}
+p{
+    margin: 0;
+    font-weight: 300;
+}
+.left-col{
+    width: 40%;
+    float: left;
+}
+.right-col{
+    width: 60%;
+    float: right;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+/* Navigation */
+nav{
+    background-color: #E91E63;
+    font-size: 25px;
+    text-align: center;
+}
+    nav a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        display: inline-block;
+        text-decoration: inherit;
+    }
+/* profile */
+#profile{
+    background-color: #8cd694;
+    position: relative;
+}
+img {
+    width: 250px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+#profile a {
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 30px 10px 30px;
+}
+
+/* work */
+#work {
+    background-color: #2b885a;
+}
+#work h2{text-align: left;}
+#work p{
+    padding-bottom: 25px;
+}
+/* education */
+#education {
+    background: linear-gradient(rgba(47, 79, 79, 0.7), rgba(246, 146, 200, 0.7)), url(../image/College.jpg);
+}
+#education h2{
+    text-align: left;
+}
+/* contact */
+#contact {
+    background-color: #607a6d;
+    text-align: center;
+}
+#contact a{
+    text-decoration: none;
+}
